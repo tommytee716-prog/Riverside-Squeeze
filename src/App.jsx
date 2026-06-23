@@ -1869,8 +1869,8 @@ function CustomerView({ placeOrder, completed, isOpen, menu, specials, songOfDay
       <div className="c-hero">
         <div className="c-hero-orbs"><div className="orb orb1"/><div className="orb orb2"/><div className="orb orb3"/></div>
         <div className="c-hero-content">
-          <img src="/rs-logo.jpg" alt="Riverside Squeeze" className="c-logo-img"/>
-          
+          <div className="c-logo">🍋</div>
+          <h1 className="c-brand">Riverside<br/>Squeeze</h1>
           <p className="c-tagline">Buffalo Born · Park Fresh · Always Cold</p>
           <MusicPlayer songOfDay={songOfDay} />
           <div className={`status-badge ${isOpen?"open":"closed"}`}><span className="status-dot"/>{isOpen?"We're OPEN":"We're CLOSED"}</div>
